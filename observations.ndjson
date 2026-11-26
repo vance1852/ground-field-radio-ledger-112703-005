@@ -14,3 +14,7 @@
 {"seq": 14, "device": "alarmer", "kind": "heard", "id": "U1", "join": 8, "at": 3161, "counter": 4, "body": "self-test-pending", "refs": [12]}
 {"seq": 15, "device": "tower-W", "kind": "uplink", "at": 5050, "node": "meter", "join": 5, "counter": 17, "freq": 1}
 {"seq": 16, "device": "desk", "kind": "classify", "id": "M2", "node": "meter", "join": 5, "counter": 17, "class": "normal", "bytes": 11, "deadline": 7100, "refs": [15]}
+{"seq": 17, "device": "tower-W", "kind": "uplink", "at": 5055, "node": "alarmer", "join": 8, "counter": 5, "freq": 1}
+{"seq": 18, "device": "desk", "kind": "classify", "id": "U2", "node": "alarmer", "join": 8, "counter": 5, "class": "urgent", "bytes": 19, "deadline": 7200, "refs": [17]}
+{"seq": 19, "device": "tower-E", "kind": "uplink", "at": 5060, "node": "alarmer", "join": 8, "counter": 6, "freq": 2}
+{"seq": 20, "device": "desk", "kind": "classify", "id": "U3", "node": "alarmer", "join": 8, "counter": 6, "class": "urgent", "bytes": 19, "deadline": 7150, "refs": [19]}
