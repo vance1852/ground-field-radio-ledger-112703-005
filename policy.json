@@ -1,0 +1,8 @@
+{
+  "rolling_ms": 10000,
+  "budget_ms": 250,
+  "base_ms": 20,
+  "per_byte_ms": 4,
+  "switch_ms": 5,
+  "normal_quota": "每三次可兑现的普通或优先机会至少保住最早到期的普通待办一次，可行且不越过优先硬截止时适用"
+}

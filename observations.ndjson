@@ -1,0 +1,16 @@
+{"seq": 1, "device": "tower-E", "kind": "tx_air", "id": "prev-E", "from": 600, "until": 780, "freq": 1}
+{"seq": 2, "device": "tower-W", "kind": "tx_air", "id": "prev-W", "from": 900, "until": 940, "freq": 1}
+{"seq": 3, "device": "tower-E", "kind": "protect", "from": 3030, "until": 3070, "freq": 1, "observed_for": "perimeter"}
+{"seq": 4, "device": "tower-E", "kind": "uplink", "at": 2000, "node": "meter", "join": 4, "counter": 17, "freq": 1}
+{"seq": 5, "device": "tower-W", "kind": "uplink", "at": 2000, "node": "meter", "join": 4, "counter": 17, "freq": 1, "refs": [4]}
+{"seq": 6, "device": "desk", "kind": "classify", "id": "M1", "node": "meter", "join": 4, "counter": 17, "class": "normal", "bytes": 9, "deadline": 4110, "refs": [4, 5]}
+{"seq": 7, "device": "tower-E", "kind": "uplink", "at": 2020, "node": "alarmer", "join": 8, "counter": 4, "freq": 1}
+{"seq": 8, "device": "tower-W", "kind": "uplink", "at": 2020, "node": "alarmer", "join": 8, "counter": 4, "freq": 1, "refs": [7]}
+{"seq": 9, "device": "desk", "kind": "classify", "id": "U1", "node": "alarmer", "join": 8, "counter": 4, "class": "urgent", "bytes": 23, "deadline": 4200, "refs": [7, 8]}
+{"seq": 10, "device": "tower-W", "kind": "tx_queue", "id": "U1", "join": 8, "plan_from": 3020, "freq": 1, "refs": [9]}
+{"seq": 11, "device": "tower-W", "kind": "tx_begin", "id": "U1", "join": 8, "from": 3028, "freq": 1, "refs": [10]}
+{"seq": 12, "device": "tower-W", "kind": "tx_air", "id": "U1", "join": 8, "from": 3028, "until": 3138, "freq": 1, "refs": [11]}
+{"seq": 13, "device": "alarmer", "kind": "heard", "id": "U1", "join": 7, "at": 3160, "counter": 4, "refs": [12]}
+{"seq": 14, "device": "alarmer", "kind": "heard", "id": "U1", "join": 8, "at": 3161, "counter": 4, "body": "self-test-pending", "refs": [12]}
+{"seq": 15, "device": "tower-W", "kind": "uplink", "at": 5050, "node": "meter", "join": 5, "counter": 17, "freq": 1}
+{"seq": 16, "device": "desk", "kind": "classify", "id": "M2", "node": "meter", "join": 5, "counter": 17, "class": "normal", "bytes": 11, "deadline": 7100, "refs": [15]}

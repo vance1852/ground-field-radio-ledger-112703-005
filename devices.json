@@ -1,0 +1,36 @@
+{
+  "alarmer": {
+    "mode": "wake-on-uplink",
+    "window_ms": [
+      1000,
+      2000
+    ],
+    "span_ms": 120
+  },
+  "meter": {
+    "mode": "wake-on-uplink",
+    "window_ms": [
+      1000,
+      2000
+    ],
+    "span_ms": 150
+  },
+  "tower-E": {
+    "freqs": [
+      1,
+      2
+    ],
+    "group": "E",
+    "duplex": "half"
+  },
+  "tower-W": {
+    "freqs": [
+      1
+    ],
+    "group": "W",
+    "duplex": "half"
+  },
+  "desk": {
+    "kind": "service"
+  }
+}
